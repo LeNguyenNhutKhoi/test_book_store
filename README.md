@@ -1,16 +1,16 @@
-# 🧪 Test Scenarios, Test Cases, and Bug Reports
+# Test Scenarios, Test Cases, and Bug Reports
 
 This document outlines the testing efforts, including detailed test scenarios, test cases, and identified bugs. You can access the full spreadsheet using the link below:
 
-**[👉 Test Scenarios and Reports]([[https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1mkRg/edit?usp=sharing]])**:
+**[Test Scenarios and Reports]([[https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1mkRg/edit?usp=sharing]])**:
 https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1mkRg/edit?usp=sharing
 <p>Feel free to explore for detailed insights!</p>
 
 
-  <h1>📘 Bookstore Web App</h1>
+  <h1>Bookstore Web App</h1>
 
   <div class="section">
-    <h2>📦 Required to operate</h2>
+    <h2>Required to operate</h2>
     <ul>
       <li><strong>Python</strong></li>
       <li>Flask API</li>
@@ -19,12 +19,12 @@ https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1m
   </div>
 
   <div class="section">
-    <h2>📝 Project Description</h2>
+    <h2>Project Description</h2>
     <p>This web application was created for practice testing purposes</p>
   </div>
 
   <div class="section">
-    <h2>🔧 Main Features / Components</h2>
+    <h2>Main Features / Components</h2>
     <ul>
       <li><strong>Authentication</strong>
         <ul>
@@ -94,7 +94,7 @@ https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1m
 <p>Note: the application only contains post and get due to litmited of HTML Form</p>
 <p><strong>Base URL:</strong> http://localhost:5000</p>
 
-<h2>🛡️ Auth </h1>
+<h2>Auth </h1>
 <p><strong>Base URL:</strong> http://localhost:5000</p>
 
 <li><strong>Auth</strong></li>
@@ -148,7 +148,7 @@ https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1m
 
 
 
-<h2>📁 Category</h2>
+<h2>Category</h2>
 <p><strong>Base URL:</strong> http://localhost:5000</p>
 <ul>
   <li><strong>GET</strong> /categories</li>
@@ -190,7 +190,7 @@ https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1m
   </ul>
 </ul>
 
-<h2>📕 Book</h2>
+<h2>Book</h2>
 <p><strong>Base URL:</strong> http://localhost:5000</p>
 <ul>
   <li><strong>GET</strong> /books</li>
@@ -257,7 +257,7 @@ https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1m
   </ul>
 </ul>
 
-<h2>👤 Reader</h2>
+<h2>Reader</h2>
 <p><strong>Base URL:</strong> http://localhost:5000</p>
 <ul>
   <li><strong>GET</strong> /readers</li>
@@ -293,7 +293,7 @@ https://docs.google.com/spreadsheets/d/11nbyCqAWKi8QKRguTV4gK8rkKqtQ0o0dYreZog1m
     <li>Response: Redirects to <code>/readers</code> with a flash message</li>
   </ul>
 </ul>
-<h2>🛒 Cart</h2>
+<h2>Cart</h2>
 <p><strong>Base URL:</strong> http://localhost:5000</p>
 <ul>
   <li><strong>POST</strong> /api/cart/add</li>
